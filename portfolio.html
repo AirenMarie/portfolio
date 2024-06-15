@@ -5,27 +5,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="portfolio.css" />
     <link rel="stylesheet" href="https://use.typekit.net/zsc6jlc.css" />
-    "
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <title>Personal Portfolio</title>
   </head>
   <body>
     <header id="header">
-      <div id="name-box">Airen M Stringer</div>
-      <br />
-      <div id="title-box">Front-End Web Developer</div>
+      <div id="name-box">
+        <h1>Airen M Stringer</h1>
+        <br />
+        <h2>Front-End Web Developer</h2>
+      </div>
       <nav id="navbar">
         <ul>
-            <li>
-                <a href="#welcome-section"></a>
-            </li>
-            <li>
-                <a href="#projects"></a>
-            </li>
-            <li>
-                <a href="#contact"></a>
-            </li>
+          <li>
+            <a href="#welcome-section">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me!</a>
+          </li>
         </ul>
       </nav>
     </header>
+    <main>
+      <section id="welcome-section" class="welcome section">
+        <img
+          id="welcome-portrait"
+          src="https://hosting.photobucket.com/albums/b146/zephyr_doe/airen_50810.jpg"
+        />
+        <h1 id="welcome-header" class="intro">
+          Hello! I'm Airen. Welcome to my portfolio.
+        </h1>
+      </section>
+      <section id="projects">
+        <h1 id="projects-header">Here are just some examples of my work.</h1>
+        <div class="projects-grid">
+          <a
+            href="https://codepen.io/airenmarie/pen/PovGWPj"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-img"
+              src="https://hosting.photobucket.com/images/b146/zephyr_doe/Screenshot_2024-06-12_at_6.50.36_PM.png"
+            />
+            <p class="project-name">A Tribute to Octavia E. Butler</p>
+          </a>
+          <a
+            href="https://codepen.io/airenmarie/pen/xxNrdYE"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-img"
+              src="https://hosting.photobucket.com/images/b146/zephyr_doe/Screenshot_2024-06-12_at_9.37.34_PM.png"
+            />
+            <p class="project-name">Skyline w/ Day-Night Transition</p></a
+          >
+          <a
+            href="https://codepen.io/airenmarie/pen/gOJXrMr"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-img"
+              src="https://hosting.photobucket.com/images/b146/zephyr_doe/Screenshot_2024-06-12_at_9.38.52_PM.png"
+            />
+            <p class="project-name">CSS Penguin</p></a
+          >
+          <a
+            href="https://codepen.io/airenmarie/pen/NWMabPO"
+            target="_blank"
+            class="project-tile"
+          >
+            <img
+              class="project-img"
+              src="https://hosting.photobucket.com/images/b146/zephyr_doe/Screenshot_2024-06-12_at_9.39.56_PM.png"
+            />
+            <p class="project-name">Invitation to the Dark Side</p></a
+          >
+        </div>
+      </section>
+      <section id="contact-me">
+        <h1 id="contact-header">Contact Me!</h1>
+        <div class="social-profiles">
+          <a
+            id="profile-link"
+            href="https://www.linkedin.com/in/airen-stringer-2b389044/"
+            target="_blank"
+            class="button"
+            ><i class="fab fa-linkedin-in"></i>
+            <h3 class="profile-name">Airen Stringer</h3>
+          </a>
+          <a
+            id="profile-link"
+            href="https://github.com/AirenMarie"
+            target="_blank"
+            class="button"
+            ><i class="fab fa-github"></i>
+            <h3 class="profile-name">AirenMarie</h3>
+          </a>
+          <a
+            id="profile-link"
+            href="https://codepen.io/airenmarie"
+            target="_blank"
+            class="button"
+            ><i class="fab fa-codepen"></i>
+            <h3 class="profile-name">AirenMarie</h3>
+          </a>
+          <a
+            id="profile-link"
+            href="https://www.freecodecamp.org/AirenMarie"
+            target="_blank"
+            class="button"
+            ><i class="fab fa-free-code-camp"></i>
+            <h3 class="profile-name">AirenMarie</h3>
+          </a>
+          <a
+            id="profile-link"
+            href="astringer92@gmail.com"
+            target="_blank"
+            class="button"
+            ><i class="fas fa-at"></i>
+            <h3 class="profile-email">astringer92@gmail.com</h3>
+          </a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
